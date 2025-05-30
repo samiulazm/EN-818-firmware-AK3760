@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Set search library path and user path
+LD_LIBRARY_PATH=/lib
+PATH=/bin:/sbin
+export LD_LIBRARY_PATH PATH
+
+#host name
+USER="`id -un`"
+LOGNAME=$USER
+HOSTNAME='/bin/hostname'
+export USER LOGNAME HOSTNAME
+
+# Set Stack Size
+ulimit -s128
+
+# prompt Set PS1
+export PS1='[\u@\h \w]$ '
+

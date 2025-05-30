@@ -1,0 +1,47 @@
+#! /bin/sh
+
+echo "--mount all file system...."
+/bin/mount -av
+
+runlevel=S
+prevlevel=N
+umask 022
+export runlevel prevlevel
+
+mkdir /dev/pts
+mount -t devpts devpts /dev/pts
+
+echo "-----starting mdev........"
+/bin/echo /sbin/mdev > /proc/sys/kernel/hotplug
+mdev -s
+
+ln -sf /proc/mounts /etc/mtab
+
+/bin/hostname anyka
+
+if [ -b /part/setting ]
+then
+	mount -t jffs2 /part/setting /mnt/settingfs/
+fi
+if [ -b /part/voice ]
+then
+	mount -t squashfs -o ro /part/voice /mnt/voicefs/
+fi
+
+#local service
+
+PATH=$PATH:/bin:/sbin:/usr/bin:/usr/sbin
+
+ifconfig lo up
+
+echo 20 > /proc/sys/vm/dirty_expire_centisecs
+echo 20 > /proc/sys/vm/dirty_writeback_centisecs
+echo 80 > /proc/sys/vm/swappiness
+echo 1 > /proc/sys/vm/overcommit_memory
+
+#ZRAM 1M
+echo 2097152 > /sys/block/zram0/disksize
+mkswap /dev/zram0
+swapon /dev/zram0
+
+./etc/run_app.sh &

@@ -1,0 +1,2 @@
+SHA256: b46f03f6fdba5d25683b495e5a2fab48c9f2833afc06b1e5d65546be9f57286e
+Original file: a60.bin

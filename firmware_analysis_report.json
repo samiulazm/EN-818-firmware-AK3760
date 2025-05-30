@@ -1,0 +1,723 @@
+{
+  "filesystem": {
+    "/": {
+      "directories": [
+        "mnt",
+        "lib",
+        "dev",
+        "sbin",
+        "var",
+        "usr",
+        "proc",
+        "sys",
+        "home",
+        "tmp",
+        "boot",
+        "bin",
+        "part",
+        "etc",
+        "opt",
+        "root"
+      ],
+      "files": [
+        "linuxrc",
+        "init"
+      ],
+      "file_count": 2,
+      "dir_count": 16
+    },
+    "mnt": {
+      "directories": [
+        "datafs",
+        "usbdisk",
+        "backupfs",
+        "voicefs",
+        "settingfs"
+      ],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 5
+    },
+    "mnt/datafs": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "mnt/usbdisk": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "mnt/backupfs": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "mnt/voicefs": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "mnt/settingfs": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "lib": {
+      "directories": [
+        "modules"
+      ],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 1
+    },
+    "lib/modules": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "dev": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "sbin": {
+      "directories": [],
+      "files": [
+        "rmmod",
+        "swapon",
+        "mkswap",
+        "getty",
+        "halt",
+        "swapoff",
+        "poweroff",
+        "mdev",
+        "ifconfig",
+        "udhcpd",
+        "reboot",
+        "insmod",
+        "runlevel",
+        "route",
+        "init",
+        "broadcast",
+        "busybox"
+      ],
+      "file_count": 17,
+      "dir_count": 0
+    },
+    "var": {
+      "directories": [
+        "run"
+      ],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 1
+    },
+    "var/run": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "usr": {
+      "directories": [],
+      "files": [
+        "tty-wg",
+        "ca.crt",
+        "license",
+        "resource.bin",
+        "config.txt",
+        "keymap.txt"
+      ],
+      "file_count": 6,
+      "dir_count": 0
+    },
+    "proc": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "sys": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "home": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "tmp": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "boot": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "bin": {
+      "directories": [],
+      "files": [
+        "test",
+        "sync",
+        "chmod",
+        "tftp",
+        "ln",
+        "[[",
+        "login",
+        "cat",
+        "dnsdomainname",
+        "mv",
+        "ping",
+        "ps",
+        "rmdir",
+        "hostname",
+        "kill",
+        "mkdir",
+        "false",
+        "true",
+        "sh",
+        "id",
+        "dd",
+        "ls",
+        "[",
+        "env",
+        "rm",
+        "ash",
+        "echo",
+        "yes",
+        "df",
+        "mount",
+        "cp",
+        "busybox"
+      ],
+      "file_count": 32,
+      "dir_count": 0
+    },
+    "part": {
+      "directories": [],
+      "files": [
+        "setting",
+        "backup",
+        "voice",
+        "data"
+      ],
+      "file_count": 4,
+      "dir_count": 0
+    },
+    "etc": {
+      "directories": [
+        "ppp",
+        "data"
+      ],
+      "files": [
+        "run_app.sh",
+        "mdev.conf",
+        "inittab",
+        "profile",
+        "udhcpd.conf",
+        "mtab",
+        "resolv.conf",
+        "passwd",
+        "rcS",
+        "fstab",
+        "group",
+        "hosts",
+        "host.conf",
+        "shadow"
+      ],
+      "file_count": 14,
+      "dir_count": 2
+    },
+    "etc/ppp": {
+      "directories": [
+        "peers"
+      ],
+      "files": [
+        "options.3g",
+        "ip-down",
+        "ip-up"
+      ],
+      "file_count": 3,
+      "dir_count": 1
+    },
+    "etc/ppp/peers": {
+      "directories": [],
+      "files": [
+        "gprs"
+      ],
+      "file_count": 1,
+      "dir_count": 0
+    },
+    "etc/data": {
+      "directories": [
+        "misc"
+      ],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 1
+    },
+    "etc/data/misc": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "opt": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    },
+    "root": {
+      "directories": [],
+      "files": [],
+      "file_count": 0,
+      "dir_count": 0
+    }
+  },
+  "configurations": {
+    "usr/config.txt": {
+      "exists": true,
+      "size": 860,
+      "lines": 55,
+      "content_preview": "#touch=1\nTnsdfls04d834msx=0\nma5PjyiQmyqG9Spd=1\nPf94sac57d38Dj9d=0\nA6KLkls3jo345JKd=0\nSLGsd6fg754f78KL=1\nCzAmLfgssujk74ns=1\nBbJ857dJBHH0uv0m=1\nAzkl34kldv09IO03=1\nRS342powqe5TYKV2=1\nDPQKE32U8ykk2UE9=1\nP..."
+    },
+    "etc/inittab": {
+      "exists": true,
+      "size": 232,
+      "lines": 13,
+      "content_preview": "# /etc/inittab\n\n# Startup the system\n::sysinit:/etc/rcS\n\nttySAK0::respawn:/sbin/getty -L ttySAK0 19200 vt100 # GENERIC_SERIAL\n\n::restart:/sbin/init\n::ctrlaltdel:/sbin/reboot\n::shutdown:/bin/umount -a ..."
+    },
+    "etc/rcS": {
+      "exists": true,
+      "size": 824,
+      "lines": 48,
+      "content_preview": "#! /bin/sh\n\necho \"--mount all file system....\"\n/bin/mount -av\n\nrunlevel=S\nprevlevel=N\numask 022\nexport runlevel prevlevel\n\nmkdir /dev/pts\nmount -t devpts devpts /dev/pts\n\necho \"-----starting mdev........"
+    },
+    "etc/run_app.sh": {
+      "exists": true,
+      "size": 58,
+      "lines": 5,
+      "content_preview": "#! /bin/sh\n\nbusybox app >> /dev/ttySAK0\nbusybox reboot -f\n"
+    },
+    "etc/passwd": {
+      "exists": true,
+      "size": 131,
+      "lines": 6,
+      "content_preview": "root::0:0:root:/root:/bin/sh\ndaemon:x:1:1:daemon:/usr/sbin:/bin/sh\nbin:x:2:2:bin:/bin:/bin/sh\nnobody:x:99:99:nobody:/home:/bin/sh\n\n"
+    },
+    "etc/group": {
+      "exists": true,
+      "size": 46,
+      "lines": 7,
+      "content_preview": "root:x:0:\ndaemon:x:1:\nbin:x:2:\nnobody:x:99:\n\n\n"
+    },
+    "etc/fstab": {
+      "exists": true,
+      "size": 572,
+      "lines": 11,
+      "content_preview": "# /etc/fstab: static file system information.\n\n# <file system> <mount point>   <type>  <options>       <dump>  <pass>\nproc            /proc           proc    defaults            0   0\ntmpfs           ..."
+    }
+  },
+  "device_settings": {
+    "device_info": {
+      "product_name": "A60",
+      "serial": "A60-0001",
+      "firmware_name": "A60",
+      "fw_file_name": "A60.bin"
+    },
+    "authentication": {
+      "rs485_fp_reader": "1",
+      "keyboard": "ebio_a60",
+      "face_engine_threshold": "1"
+    },
+    "network": {
+      "xml_download": "1"
+    },
+    "system": {
+      "sensor_led_on_level": "0",
+      "status_led": "1",
+      "fail_log": "1",
+      "use_reopen": "1"
+    },
+    "unknown": {
+      "Tnsdfls04d834msx": "0",
+      "ma5PjyiQmyqG9Spd": "1",
+      "Pf94sac57d38Dj9d": "0",
+      "A6KLkls3jo345JKd": "0",
+      "SLGsd6fg754f78KL": "1",
+      "CzAmLfgssujk74ns": "1",
+      "BbJ857dJBHH0uv0m": "1",
+      "Azkl34kldv09IO03": "1",
+      "RS342powqe5TYKV2": "1",
+      "DPQKE32U8ykk2UE9": "1",
+      "PtzPi34198sUpER6": "1",
+      "VlsKa2iLs9liOkld": "0",
+      "data_file_name": "A60T_DATA.BIN",
+      "use_user_period": "1",
+      "vqMKeA26RtVq8Y+J": "1",
+      "tr_selectable": "1",
+      "tr_string_changable": "0",
+      "delete_expired_credit": "0",
+      "delete_expired_user": "0",
+      "screen_saver_theme": "1",
+      "support_powoff": "0",
+      "support_powoff_by_gpio": "1",
+      "log_server_dns_resolve": "1",
+      "face_engine_name": "EbknFace",
+      "face_engine_ver": "V3.0",
+      "finger_engine_name": "EbknFinger",
+      "finger_engine_ver": "V3.0",
+      "default_fp_count": "1000"
+    }
+  },
+  "binaries": {
+    "bin": [
+      {
+        "name": "test",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/test: symbolic link to busybox"
+      },
+      {
+        "name": "sync",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/sync: symbolic link to busybox"
+      },
+      {
+        "name": "chmod",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/chmod: symbolic link to busybox"
+      },
+      {
+        "name": "tftp",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/tftp: symbolic link to busybox"
+      },
+      {
+        "name": "ln",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/ln: symbolic link to busybox"
+      },
+      {
+        "name": "[[",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/[[: symbolic link to busybox"
+      },
+      {
+        "name": "login",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/login: symbolic link to busybox"
+      },
+      {
+        "name": "cat",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/cat: symbolic link to busybox"
+      },
+      {
+        "name": "dnsdomainname",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/dnsdomainname: symbolic link to busybox"
+      },
+      {
+        "name": "mv",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/mv: symbolic link to busybox"
+      },
+      {
+        "name": "ping",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/ping: symbolic link to busybox"
+      },
+      {
+        "name": "ps",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/ps: symbolic link to busybox"
+      },
+      {
+        "name": "rmdir",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/rmdir: symbolic link to busybox"
+      },
+      {
+        "name": "hostname",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/hostname: symbolic link to busybox"
+      },
+      {
+        "name": "kill",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/kill: symbolic link to busybox"
+      },
+      {
+        "name": "mkdir",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/mkdir: symbolic link to busybox"
+      },
+      {
+        "name": "false",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/false: symbolic link to busybox"
+      },
+      {
+        "name": "true",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/true: symbolic link to busybox"
+      },
+      {
+        "name": "sh",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/sh: symbolic link to busybox"
+      },
+      {
+        "name": "id",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/id: symbolic link to busybox"
+      },
+      {
+        "name": "dd",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/dd: symbolic link to busybox"
+      },
+      {
+        "name": "ls",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/ls: symbolic link to busybox"
+      },
+      {
+        "name": "[",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/[: symbolic link to busybox"
+      },
+      {
+        "name": "env",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/env: symbolic link to busybox"
+      },
+      {
+        "name": "rm",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/rm: symbolic link to busybox"
+      },
+      {
+        "name": "ash",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/ash: symbolic link to busybox"
+      },
+      {
+        "name": "echo",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/echo: symbolic link to busybox"
+      },
+      {
+        "name": "yes",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/yes: symbolic link to busybox"
+      },
+      {
+        "name": "df",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/df: symbolic link to busybox"
+      },
+      {
+        "name": "mount",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/mount: symbolic link to busybox"
+      },
+      {
+        "name": "cp",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/cp: symbolic link to busybox"
+      },
+      {
+        "name": "busybox",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/bin/busybox: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statically linked, stripped"
+      }
+    ],
+    "sbin": [
+      {
+        "name": "rmmod",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/rmmod: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "swapon",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/swapon: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "mkswap",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/mkswap: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "getty",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/getty: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "halt",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/halt: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "swapoff",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/swapoff: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "poweroff",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/poweroff: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "mdev",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/mdev: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "ifconfig",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/ifconfig: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "udhcpd",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/udhcpd: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "reboot",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/reboot: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "insmod",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/insmod: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "runlevel",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/runlevel: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "route",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/route: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "init",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/init: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "broadcast",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/broadcast: symbolic link to ../bin/busybox"
+      },
+      {
+        "name": "busybox",
+        "size": 4923360,
+        "executable": true,
+        "type": "_a60.bin/squashfs-root/sbin/busybox: symbolic link to ../bin/busybox"
+      }
+    ]
+  },
+  "modification_points": {
+    "safe_to_modify": [
+      "usr/config.txt",
+      "etc/run_app.sh",
+      "etc/rcS",
+      "etc/passwd",
+      "etc/group"
+    ],
+    "risky_to_modify": [],
+    "do_not_modify": [],
+    "recommendations": [
+      "Modify usr/config.txt for device settings",
+      "Add custom scripts to etc/ directory",
+      "Modify etc/run_app.sh for startup customization",
+      "Add custom binaries to usr/bin/",
+      "Avoid modifying core system files",
+      "Always backup before modifying"
+    ]
+  },
+  "security": {
+    "authentication_methods": [
+      "Fingerprint (RS485)",
+      "Keyboard/Password"
+    ],
+    "network_security": [],
+    "file_permissions": {
+      "etc/passwd": "755",
+      "etc/shadow": "755",
+      "usr/config.txt": "755"
+    },
+    "potential_issues": [
+      "Root account with no password"
+    ]
+  }
+}

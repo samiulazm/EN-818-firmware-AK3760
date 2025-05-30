@@ -1,0 +1,12 @@
+# /etc/inittab
+
+# Startup the system
+::sysinit:/etc/rcS
+
+ttySAK0::respawn:/sbin/getty -L ttySAK0 19200 vt100 # GENERIC_SERIAL
+
+::restart:/sbin/init
+::ctrlaltdel:/sbin/reboot
+::shutdown:/bin/umount -a -r
+::shutdown:/sbin/swapoff -a
+

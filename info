@@ -1,0 +1,28 @@
+=== A60.BIN REVERSE ENGINEERING ANALYSIS ===
+
+File size: 7864320 bytes (7.50 MB)
+
+HEADER ANALYSIS:
+0000: 10 f9 9f e5 41 4e 59 4b 41 53 33 43 01 00 00 00  |....ANYKAS3C....|
+0010: 34 76 00 00 01 00 00 00 03 00 00 00 00 00 00 00  |4v..............|
+0020: 03 00 00 00 06 00 00 00 00 0a 00 30 78 00 00 08  |...........0x...|
+0030: 72 1f 40 18 04 d0 02 20 54 92 78 16 00 d0 02 20  |r.@.... T.x.... |
+0040: 00 00 17 c0 00 d0 02 20 00 04 12 c0 00 d0 02 20  |....... ....... |
+0050: 00 00 11 c0 00 d0 02 20 00 00 11 c0 00 d0 02 20  |....... ....... |
+0060: 00 00 11 c0 00 d0 02 20 00 00 11 c0 00 d0 02 20  |....... ....... |
+0070: 00 00 11 c0 00 d0 02 20 00 00 11 c0 00 d0 02 20  |....... ....... |
+
+IDENTIFIED SIGNATURES:
+- ANYKAS3C: Likely ANYKA chip firmware
+- This appears to be firmware for an ANYKA A60 series chip
+- ANYKA makes SoCs commonly used in dash cams, action cameras, and IoT devices
+
+FIRMWARE STRUCTURE ANALYSIS:
+Magic number: 0xe59ff910
+Version strings found: ['A60_32']
+
+POTENTIAL FIRMWARE SECTIONS:
+KERN: found at offsets ['0x42100c']
+DATA: found at offsets ['0x3a3685', '0x3a50d2', '0x3cb1f1', '0x3cdc8f', '0x3ce290']
+ELF: found at offsets ['0x11ea61', '0x383bf5', '0x427d16']
+samz@samz:~/Videos/test reverse$ 

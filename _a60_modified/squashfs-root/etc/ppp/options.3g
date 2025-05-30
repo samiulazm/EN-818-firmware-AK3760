@@ -1,0 +1,23 @@
+#crtscts
+modem
+linkname gprs
+user dummy
+password dummy
+defaultroute
+defaultroute_metric 1000
+usepeerdns
+noipdefault
+novj
+novjccomp
+nobsdcomp
+ipcp-accept-remote
+ipcp-accept-local
+#dump
+#debug
+nodetach
+lcp-echo-failure 2
+lcp-echo-interval 5
+ipcp-max-configure 30
+ipcp-max-failure 30
+ipcp-max-terminate 10
+connect "busybox call_modem"
